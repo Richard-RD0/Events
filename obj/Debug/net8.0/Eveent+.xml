@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Eveent+</name>
+    </assembly>
+    <members>
+        <member name="T:Eveent_.Migrations.DbEveet_Api">
+            <inheritdoc />
+        </member>
+        <member name="M:Eveent_.Migrations.DbEveet_Api.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Eveent_.Migrations.DbEveet_Api.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Eveent_.Migrations.DbEveet_Api.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Event_Plus.Controller.TipoEventosController.Get" -->
+        <member name="M:Event_Plus.Controller.TipoEventosController.Post(Eveent_.Domains.TiposEventos)">
+            <summary>
+            Cadastrar os Tipo Eventos
+            </summary>
+            <param name="novoTipoEvento">Tipo Evento cadastrado</param>
+            <returns>Novo Tipo Evento</returns>
+        </member>
+        <member name="M:Event_Plus.Controller.TipoEventosController.Delete(System.Guid)">
+            <summary>
+            Deletar um Tipo Evento
+            </summary>
+            <param name="id">Id do Tipo de Evento</param>
+            <returns>Linha vazia</returns>
+        </member>
+        <member name="M:Event_Plus.Controller.TipoEventosController.Put(System.Guid,Eveent_.Domains.TiposEventos)">
+            <summary>
+            Atualizar um Tipo De Evento
+            </summary>
+            <param name="id">Id do TipoEvento</param>
+            /// <param name="tipoEvento">Titulo do Filme</param>
+            <returns>Tipo Evento Atualizado</returns>
+        </member>
+        <member name="M:EventPlus_.Controller.TipoUsuarioController.Post(Eveent_.Domains.TiposUsuarios)">
+            <summary>
+            Endpoint para cadastrar um tipo de usuario
+            </summary>
+        </member>
+        <member name="M:EventPlus_.Controller.TipoUsuarioController.Get">
+            <summary>
+            Endpoint para listar os tipos de usuario
+            </summary>
+        </member>
+        <member name="M:EventPlus_.Controller.TipoUsuarioController.Put(System.Guid,Eveent_.Domains.TiposUsuarios)">
+            <summary>
+            Endpoint para atualizar um tipo de usuário.
+            </summary>
+        </member>
+        <member name="M:EventPlus_.Controller.TipoUsuarioController.Delete(System.Guid)">
+            <summary>
+            Endpoint para deletar os tipos de usuarios
+            </summary>
+        </member>
+        <member name="M:EventPlus_.Controller.TipoUsuarioController.GetById(System.Guid)">
+            <summary>
+            Endpoint para buscar o tipo do usuario por Id
+            </summary>
+        </member>
+    </members>
+</doc>
